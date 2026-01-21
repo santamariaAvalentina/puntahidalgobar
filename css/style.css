@@ -230,7 +230,7 @@ footer div ul li a {
     right: 30px;
 }
 /*---------mediaqquerie--------*/
-@media (max-width: 600px){
+@media (max-width: 500px){
     .logoNombre {
         flex-wrap: wrap; 
         margin-top: 20px;  
