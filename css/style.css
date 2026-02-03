@@ -75,51 +75,6 @@ h1, h2, h3 {
   text-align: center;
 }
 
-.btn-outline-secondary:hover {
-  transform: translate(3px, -3px);
-  transition: transform 1s ease;
-}
-
-.contacto:hover {
-  transform: translate(3px, -3px);
-  transition: transform 1s ease;
-}
-
-.contactoReserva:hover {
-  transform: 3px, -3px;
-  transition: transform 3s ease;
-}
-
-.boton:hover {
-  transform: translate(0.5px, 0.5px);
-  transition: transform 0.1s ease, box-sadow 0.1 ease;
-  box-shadow: 1px 1px 20px;
-}
-
-.boton:active {
-  background-color: grey;
-  transform: translate(0.3px 0.3px);
-  box-shadow: 1px 1px 8px black;
-}
-
-/*------------------keyframe----------*/
-.cartaComidas {
-  animation: aparecer 3s;
-}
-
-.imagenSabores {
-  animation: aparecer 5s;
-}
-
-@keyframes aparecer {
-  from {
-    opacity: 0;
-    scale: 0.2;
-  }
-  to {
-    opacity: 1;
-  }
-}
 body {
   background-color: black;
 }
@@ -347,40 +302,6 @@ footer div ul li a {
   height: auto;
 }
 
-@media (max-width: 500px) {
-  * {
-    font-size: 17px;
-  }
-  .logoNombre {
-    flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
-  .navegador {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .show_flex {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .gridReservas {
-    grid-template-columns: 1fr;
-    margin-bottom: 20px;
-  }
-  .estiloReservas {
-    margin-bottom: 2px;
-    padding: 20px;
-  }
-  .contedorConocenos {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-  }
-  .informacionFooter {
-    gap: 20px;
-  }
-}
 .botonesNav:hover {
   transform: scale(1.1);
   list-style: none;
@@ -425,6 +346,88 @@ nav ul {
 
 .img-carrusel {
   object-fit: cover;
+}
+
+.btn-outline-secondary:hover {
+  transform: translate(3px, -3px);
+  transition: transform 1s ease;
+}
+
+.contacto:hover {
+  transform: translate(3px, -3px);
+  transition: transform 1s ease;
+}
+
+.contactoReserva:hover {
+  transform: 3px, -3px;
+  transition: transform 3s ease;
+}
+
+.boton:hover {
+  transform: translate(0.5px, 0.5px);
+  transition: transform 0.1s ease, box-sadow 0.1 ease;
+  box-shadow: 1px 1px 20px;
+}
+
+.boton:active {
+  background-color: grey;
+  transform: translate(0.3px 0.3px);
+  box-shadow: 1px 1px 8px black;
+}
+
+/*------------------keyframe----------*/
+.cartaComidas {
+  animation: aparecer 3s;
+}
+
+.imagenSabores {
+  animation: aparecer 5s;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    scale: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 500px) {
+  * {
+    font-size: 17px;
+  }
+  .logoNombre {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .navegador {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .show_flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gridReservas {
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+  .estiloReservas {
+    margin-bottom: 2px;
+    padding: 20px;
+  }
+  .contedorConocenos {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .informacionFooter {
+    max-width: 500px;
+    margin: 5px;
+    font-size: 1.2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
