@@ -42,6 +42,13 @@
   padding: 6px;
 }
 
+.formularios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
 * {
   padding: 0;
   margin: 0;
