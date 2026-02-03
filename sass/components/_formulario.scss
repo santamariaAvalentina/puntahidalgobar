@@ -1,6 +1,7 @@
 @use "../utilities/mixins" as *;
 
-.formularios{
-    @include flex (center, center);
-    gap: 30px;
+.formulario{
+    @include flex (center,center);
+    flex-direction: column;
+    gap: 15px;
 }

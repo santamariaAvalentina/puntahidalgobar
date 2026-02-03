@@ -42,11 +42,12 @@
   padding: 6px;
 }
 
-.formularios {
+.formulario {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  flex-direction: column;
+  gap: 15px;
 }
 
 * {
