@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Punta Hidalgo Resto Bar</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -12,18 +13,18 @@
             <img src="../img/logo.png" alt="logo del local">
             <h1 class="textoCentrado">Punta Hidalgo Resto Bar</h1>
         </div>
-        <div >
-            <nav class="textoCentrado">
-                <ul class="navegador">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./carta.html">Carta</a></li>
-                    <li><a href="./shows.html">Shows</a></li>
-                    <li><a href="./reservas.html">Reservas</a></li>
-                    <li><a href="#">Conocenos</a></li>
-                </ul>
-            </nav>
-        </div>
     </header>
+    <div class="navegadorSticky" >
+        <nav>
+            <ul class="navegadorEstilo">
+                <li class="botonesNav"><a href="../index.html">Inicio</a></li>
+                <li class="botonesNav"><a href="./carta.html">Carta</a></li>
+                <li class="botonesNav"><a href="./shows.html">Shows</a></li>
+                <li class="botonesNav"><a href="./reservas.html">Reservas</a></li>
+                <li class="botonesNav"><a href="#">Conocenos</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
         <div class="contenedorConocenos">
             <div class="conocenosTitulo">
@@ -34,8 +35,9 @@
                     <img src="../img/guitarra.png" alt="mitad de guitarra izquierda">
                 </div>
             <div class="contacto">
-                <img src="../img/what.png" alt="contacto whatsapp">
-<!--aca la idea es que sea un boton funcional directo al whatsapp-->
+                <a href="https://api.whatsapp.com/send?phone=5493517325619&text=Hola%20quiero%20hacer%20una%20consulta"target="_blank" >
+                    <img src="../img/what.png" alt="contacto whatsapp">
+                </a>
             </div>
 
             <div class="conocenosTexto">
@@ -87,5 +89,6 @@ Si pásate alguna vez, sabes de lo que hablamos . Si no , te esperamos para escr
         </div>
         
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
 </body>
 </html>

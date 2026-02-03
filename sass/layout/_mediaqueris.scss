@@ -1,0 +1,38 @@
+@use "../utilities/mixins" as *;
+@media (max-width: 500px){
+    *{
+    font-size: 17px;
+    }
+    .logoNombre {
+        flex-wrap: wrap; 
+        margin-top: 20px;  
+        margin-bottom: 10px; 
+    }
+    .navegador{
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .show_flex {
+        @include flex (null, center);
+        flex-direction:column;
+    
+    }
+    .gridReservas{
+        grid-template-columns:1fr;
+        margin-bottom: 20px;
+        
+    }  
+    .estiloReservas{
+        margin-bottom: 2px;
+        padding:20px;
+        
+    }
+    .contedorConocenos{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+    }  
+    .informacionFooter{
+        gap: 20px;
+    }
+}

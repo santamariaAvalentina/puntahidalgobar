@@ -1,0 +1,25 @@
+@use "../utilities/variable" as *;
+@use "../utilities/mixins" as *;
+.navegadorSticky{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+.navegadorEstilo{
+    @include flex (space-between,center);
+    justify-items: center;
+    margin: 4px;
+    padding: 6px;
+    margin-bottom: 15px;
+    size: $size-letra;
+    background-color:#cc591b;
+    opacity: 0.8;
+    
+}
+.navegadorSticky a{
+    color:$texto-color;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+}

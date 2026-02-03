@@ -1,0 +1,34 @@
+@use "../utilities/variable" as*;
+@use "../utilities/mixins" as *;
+footer{
+    background-color: $bg-footer;
+    color: $texto-color;
+    
+}
+.mapa iframe{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.informacionFooter{
+    @include flex (space-between, center);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer div ul li {
+    text-decoration: none;
+    color: $texto-color;
+    text-decoration: none;
+    list-style: none;  
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: $texto-color;
+}
+.imagenPiano img{
+    width: 100%;
+    height: auto;
+}

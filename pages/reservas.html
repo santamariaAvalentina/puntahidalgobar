@@ -3,87 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Punta Hidalgo Resto Bar</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
+    <header class="gradiente">
         <div class="logoNombre">
             <img src="../img/logo.png" alt="logo del local">
-            <h1 class="textoCentrado">Punta Hidalgo Resto Bar</h1>>
+            <h1 class="textoCentrado">Punta Hidalgo Resto Bar</h1>
         </div>
-        <div >
-            <nav >
-                <ul class="navegador">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./carta.html">Carta</a></li>
-                    <li><a href="./shows.html">Shows</a></li>
-                    <li><a href="#">Reservas</a></li>
-                    <li><a href="conocenos.html">Conocenos</a></li>
-                </ul>
-            </nav>
-        </div>
+    </header>
+    <div class="navegadorSticky" >
+        <nav>
+            <ul class="navegadorEstilo ">
+                <li class="botonesNav"><a href="../index.html" class="botonNavegador">Inicio</a></li>
+                <li class="botonesNav"><a href="./carta.html">Carta</a></li>
+                <li class="botonesNav"><a href="./shows.html">Shows</a></li>
+                <li class="botonesNav"><a href="#">Reservas</a></li>
+                <li class="botonesNav"><a href="conocenos.html">Conocenos</a></li>
+            </ul>
+        </nav>
+    </div>
         
-
-    </head>
-        <main>
-            <div>
-                <section >
+    <main>
+        <div>
+            <section >
                     <h2 class="textoCentrado pizza">Reserva tu lugar</h2>
                 </section>
             </div>
-            <div class="gridGeneral">
-                <div>
-                    <img src="../img/guitarra.png" alt="mitad de guitarra izquierda">
-                </div>            
-                
-                <div class="gridReservas">
-                    <div class="reservasAlineadas">
+            <div class="flexGeneral">
+                <div class="gridReservas ">
+                    <div class="reservasAlineadas estiloReservas ">
+                        
                         <h3 class="telefono">Reserva telefonica</h3>
-                        <ul>
-                            <li>Llamanos al 03541-421127</li>
-                            <li>De 20hs a 00hs</li>
-                        </ul>
-                    </div>
-
-                    <section class="mapa">
+                        
+                            <h3>Llamanos al 03541-421127</h3>
+                            <p>De 20hs a 00hs</p>
+                        <div>
+                            <p>o</p>
+                            <h3>Escribinos a nuestro Whatsapp</h3> 
+                            <a href="https://api.whatsapp.com/send?phone=5493517325619&text=Hola%20quiero%20hacer%20una%20reserva%0APara%3A%20personas%0APara%20el%20dia%3A%0Aa%20las%3A%20hs"target="_blank" >
+                            <img class="contactoReserva" src="../img/what.png" alt="contacto whatsapp" ></a>
+            </div>
+                </div>
+                    <section class="mapa estiloReservas ">
                         <h3 class="auto">Reserva en el local</h3>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9305325971795!2d-64.49504092672899!3d-31.416039974261828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6642c2280063%3A0xded3b652d8875cbe!2sBar%20Punta%20Hidalgo!5e0!3m2!1ses!2sar!4v1765150302471!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <ul>
-                            <li>Acercate a Nuestra sucursal</li>
-                            <li>Uruguay esq. Hidalgo</li>
-                            <li>De Lunes a Lunes de 20hs a 00hs</li>
-                        </ul>
+                        <div>
+                            <p>Acercate a Nuestra sucursal</p>
+                            <p>Uruguay esq. Hidalgo</p>
+                            <p>De Lunes a Lunes </p>
+                            <p>de 20hs a 00hs</p>
+                        <div>
                     </section>
-                    <section class="reservasAlineadas">
+                    <section class="reservasAlineadas estiloReservas ">
                         <h3 class="online" >Reservas Online</h3>
-                        <form action=""> 
-                            <label for="nombre_form"></label>
-                            <input type="text" id="nombre_form" placeholder="Nombre completo de la persona que reserva" required>
-                            <label for="dni_form"></label>
-                            <input type="tel" id="dni_form" placeholder="DNI"required>
-                            <label for="tel_form"></label>
-                            <input type="tel" id="tel_form" placeholder="Telefono de contacto"required>    
-                            <h3>Seleccione el Dia Reserva</h3>
-                            <label for="diaReserva_form">Miercoles</label>
-                            <input type="radio"name ="dia_form" required>
-                            <label for="diaReserva_form">Jueves</label>
-                            <input type="radio"name ="dia_form" required>
-                            <label for="diaReserva_form">Viernes</label>
-                            <input type="radio"name ="dia_form"required>
-                            <label for="diaReserva_form">Sabado</label>
-                            <input type="radio"name ="dia_form"required>
-                            <label for="cantidas_form">Cantidad de Personas</label>
-                            <input type="tel" placeholder="1" required>
-                            <input class="boton" type="submit" value="Enviar" href ="mailto:santamaria.a.valentina@gmial.com" >
-                    </section> 
+                        <div>
+                            
+                            <form action=""> 
+                                <label for="nombre_form"></label>
+                                <input type="text" id="nombre_form" placeholder="Nombre completo de la persona que reserva" required>
+                                <p> </p>
+                                <label for="dni_form"></label>
+                                <input type="tel" id="dni_form" placeholder="DNI"required>
+                                <p> </p>
+                                <label for="tel_form"></label>
+                                <input type="tel" id="tel_form" placeholder="Telefono de contacto"required>    
+                                <p> </p>
+                                <h3>Seleccione el Dia Reserva</h3>
+                                <label for="diaReserva_form">Miercoles</label>
+                                <input type="radio"name ="dia_form" required>
+                                <label for="diaReserva_form">Jueves</label>
+                                <input type="radio"name ="dia_form" required>
+                                <label for="diaReserva_form">Viernes</label>
+                                <input type="radio"name ="dia_form"required>
+                                <label for="diaReserva_form">Sabado</label>
+                                <input type="radio"name ="dia_form"required>
+                                <p> </p>
+                                <div class="reservasOnline">
+                                    <label for="cantidas_form">Cantidad de Personas</label>
+                                    <input type="tel" placeholder="1" required>
+                                    <input class="boton" type="submit" value="Enviar" href ="mailto:santamaria.a.valentina@gmial.com" >
+                                </div>
+                                
+                        </div>
+                    </section>    
                 </div>   
                 
             </div>
-            <div class="contacto">
-                <img src="../img/what.png" alt="contacto whatsapp">
-            </div>
-<!--aca la idea es que sea un boton funcional directo al whatsapp-->
+            
     </main>
     <footer>
         <div>
@@ -120,5 +129,6 @@
         </div>
         
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
 </body>
 </html>

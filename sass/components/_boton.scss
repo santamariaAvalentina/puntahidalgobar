@@ -1,0 +1,9 @@
+@use "../utilities/variable" as *;
+.contacto{
+    position: fixed;
+    top: 500px;
+    bottom: 20%;
+    right: 30px;
+    cursor: $cursor;  
+    
+}
