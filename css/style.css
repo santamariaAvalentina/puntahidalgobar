@@ -424,8 +424,13 @@ nav ul {
     grid-template-rows: repeat(3, 1fr);
   }
   .informacionFooter {
-    width: auto;
-    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 15px;
+    text-align: center;
   }
 }
 
