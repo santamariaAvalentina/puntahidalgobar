@@ -33,8 +33,9 @@
         grid-template-rows: repeat(3,1fr);
     }  
     .informacionFooter{
-        max-width: 500px;
-        margin: 5px;
-        font-size: 1.2rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        height: auto;
+        
     }
 }
