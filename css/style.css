@@ -424,7 +424,8 @@ nav ul {
     grid-template-rows: repeat(3, 1fr);
   }
   .informacionFooter {
-    width: auto;
+    width: 100%;
+    height: auto;
   }
 }
 
