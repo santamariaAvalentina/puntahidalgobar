@@ -24,13 +24,13 @@
 
 .navegadorEstilo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 6px;
+  margin: 10px;
+  padding: 10px;
   justify-items: center;
-  margin: 4px;
-  padding: 6px;
-  margin-bottom: 15px;
-  size: 35px;
+  size: 20px;
   background-color: #cc591b;
   opacity: 0.8;
 }
@@ -40,6 +40,7 @@
   text-decoration: none;
   border-radius: 5px;
   padding: 6px;
+  font-size: 20px;
 }
 
 .formulario {
@@ -176,9 +177,7 @@ main {
 
 /*------main carta-------*/
 .contenedorCarta {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
+  display: grid;
 }
 
 .cartaComidas {
@@ -348,24 +347,36 @@ nav ul {
   object-fit: cover;
 }
 
+.btn-outline-secondary {
+  transition: transform 1s ease;
+}
+
 .btn-outline-secondary:hover {
   transform: translate(3px, -3px);
+}
+
+.contacto {
   transition: transform 1s ease;
 }
 
 .contacto:hover {
   transform: translate(3px, -3px);
-  transition: transform 1s ease;
+}
+
+.contactoReserva {
+  transition: transform 3s ease;
 }
 
 .contactoReserva:hover {
   transform: 3px, -3px;
-  transition: transform 3s ease;
+}
+
+.boton {
+  transition: transform 0.1s ease, box-shadow 0.1 ease;
 }
 
 .boton:hover {
   transform: translate(0.5px, 0.5px);
-  transition: transform 0.1s ease, box-sadow 0.1 ease;
   box-shadow: 1px 1px 20px;
 }
 
@@ -419,12 +430,13 @@ nav ul {
     margin-bottom: 2px;
     padding: 20px;
   }
-  .contedorConocenos {
+  .guitarrasTexto {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .informacionFooter {
-    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

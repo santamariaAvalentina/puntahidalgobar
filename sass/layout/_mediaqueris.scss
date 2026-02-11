@@ -21,20 +21,18 @@
     .gridReservas{
         grid-template-columns:1fr;
         margin-bottom: 20px;
-        
     }  
     .estiloReservas{
         margin-bottom: 2px;
         padding:20px;
-        
     }
-    .contedorConocenos{
+    .guitarrasTexto{
         display: grid;
-        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(3,1fr);
     }  
-    .informacionFooter{
-        width: auto;
-        
-
-}
+    .informacionFooter {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    
 }

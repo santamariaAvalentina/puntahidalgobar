@@ -51,8 +51,7 @@ main{
 }
 /*------main carta-------*/
 .contenedorCarta{
-    flex-direction: column;
-    @include flex (null, center);
+    display: grid;
 }
 .cartaComidas{
     margin-top: 20px;

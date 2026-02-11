@@ -7,14 +7,15 @@
 
 }
 .navegadorEstilo{
-    @include flex (space-between,center);
+    @include flex (center,center);
+    gap: 6px;
+    margin: 10px;
+    padding: 10px;
     justify-items: center;
-    margin: 4px;
-    padding: 6px;
-    margin-bottom: 15px;
-    size: $size-letra;
+    size: 20px;
     background-color:#cc591b;
     opacity: 0.8;
+    
     
 }
 .navegadorSticky a{
@@ -22,4 +23,5 @@
     text-decoration: none;
     border-radius: 5px;
     padding: 6px;
+    font-size: 20px;
 }

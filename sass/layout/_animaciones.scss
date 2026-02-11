@@ -1,19 +1,29 @@
 @use "../utilities/variable" as *;
+
+.btn-outline-secondary{
+    transition: transform 1s ease;
+}
 .btn-outline-secondary:hover{
     transform: translate(3px,-3px);
+}
+.contacto{
     transition: transform 1s ease;
 }
 .contacto:hover{
     transform: translate(3px,-3px);
-    transition: transform 1s ease;
+    
+}
+.contactoReserva{
+    transition: transform 3s ease;
 }
 .contactoReserva:hover{
     transform: $trans-chico;
-    transition: transform 3s ease;
+}
+.boton{
+    transition: transform 0.1s ease, box-shadow 0.1 ease;
 }
 .boton:hover{
     transform: translate(0.5px,0.5px);
-    transition: transform 0.1s ease, box-sadow 0.1 ease;
     box-shadow: $sombra-imagenes;
 }
 .boton:active{
