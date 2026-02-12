@@ -15,6 +15,7 @@
 }
 .contactoReserva{
     transition: transform 3s ease;
+    box-shadow: 1px 1px 8px white;
 }
 .contactoReserva:hover{
     transform: $trans-chico;
@@ -34,7 +35,6 @@
 /*------------------keyframe----------*/
 .cartaComidas{
     animation: aparecer 3s
-    
 }
 .imagenSabores{
     animation: aparecer 5s ;
