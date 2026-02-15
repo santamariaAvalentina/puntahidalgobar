@@ -82,14 +82,15 @@ main{
     color: white;
 
 }
-.flexGeneral {
-    display: flex;
-    text-align: center;
-}
-
-.Reservas{
+.reservaSola{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reservas{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
     gap: 20px;
     margin: 5px;
 }
@@ -103,10 +104,17 @@ main{
 .estiloReservas{
     margin-top: 20px;
     margin-right: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
     margin-left: 20px;
     padding:20px;
     box-shadow: $sombra-imagenes ;
+}
+.reservaTelefono{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.whatsappReservas{
+    @include flex (center, center);
 }
 .reservaLocal{
     display:flex;

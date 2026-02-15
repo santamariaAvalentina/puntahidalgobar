@@ -30,68 +30,69 @@
         <div>
             <section >
                     <h2 class="textoCentrado pizza">Reserva tu lugar</h2>
-                </section>
-            </div>
-            <div class="flexGeneral">
-                <div class="Reservas ">
-                    <div class="reservasAlineadas estiloReservas ">
-                        <h3 class="telefono">Reserva telefonica</h3>
-                            <h3>Llamanos al 03541-421127</h3>
-                            <p>De 20hs a 00hs</p>
+            </section>
+            <div class="reservasAlineadas estiloReservas reservaSola ">
+                    <h3 class="telefono">Reserva telefonica</h3>
+                    <div class="reservaTelefono" >
                         <div>
-                            <p>o</p>
-                            <h3>Escribinos a nuestro Whatsapp</h3> 
+                            <p>Llamanos al 03541-421127</p>
+                            <p>(De 20hs a 00hs)</p>
+                        </div>
+                        <div class="whatsappReservas">
                             <a href="https://api.whatsapp.com/send?phone=5493517325619&text=Hola%20quiero%20hacer%20una%20reserva%0APara%3A%20personas%0APara%20el%20dia%3A%0Aa%20las%3A%20hs"target="_blank" >
                             <img class="contactoReserva" src="../img/what.png" alt="contacto whatsapp" ></a>
-            </div>
-                </div>
-                    <section class="estiloReservas reservaLocal ">
-                        <h3 class="auto">Reserva en el local</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9305325971795!2d-64.49504092672899!3d-31.416039974261828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6642c2280063%3A0xded3b652d8875cbe!2sBar%20Punta%20Hidalgo!5e0!3m2!1ses!2sar!4v1765150302471!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <div>
-                            <p>Acercate a Nuestra sucursal</p>
-                            <p>Uruguay esq. Hidalgo</p>
-                            <p>De Lunes a Lunes </p>
-                            <p>de 20hs a 00hs</p>
-                        <div>
-                    </section>
-                    <section class="reservasAlineadas estiloReservas ">
-                        <h3 class="online" >Reservas Online</h3>
-                        <div>
-                            <form action="" class=" formulario"> 
-                                <label for="nombre_form"></label>
-                                <input type="text" id="nombre_form" placeholder="Nombre completo" required>
-                                <label for="dni_form"></label>
-                                <input type="tel" id="dni_form" placeholder="DNI"required>
-                                <label for="tel_form"></label>
-                                <input type="tel" id="tel_form" placeholder="Telefono de contacto"required>
-                                <h3>Seleccione el Dia Reserva</h3>
-                                <div class="diasReserva">
-                                    <label for="diaReserva_form">Miercoles</label>
-                                    <input type="radio"name ="dia_form" required>
-                                    <label for="diaReserva_form">Jueves</label>
-                                    <input type="radio"name ="dia_form" required>
-                                    <label for="diaReserva_form">Viernes</label>
-                                    <input type="radio"name ="dia_form"required>
-                                    <label for="diaReserva_form">Sabado</label>
-                                    <input type="radio"name ="dia_form"required>
-                                </div>
-                                <div class="reservasOnline">
-                                    <label for="cantidas_form">Cantidad de Personas</label>
-                                    <input type="tel" placeholder="1" required>
-                                    <input class="boton" type="submit" value="Enviar" href ="mailto:santamaria.a.valentina@gmial.com" >
-                                </div>
-                                
                         </div>
-                    </section>    
-                </div>   
+                    </div>
+                </div>
+            <div class="reservas">
+                <div class="estiloReservas reservaLocal ">
+                    <h3 class="auto">Reserva en el local</h3>
+                    <div class="mapaReservas">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.9305325971795!2d-64.49504092672899!3d-31.416039974261828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6642c2280063%3A0xded3b652d8875cbe!2sBar%20Punta%20Hidalgo!5e0!3m2!1ses!2sar!4v1765150302471!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div>
+                        <p>Acercate a Nuestra sucursal</p>
+                        <p>Uruguay esq. Hidalgo</p>
+                        <p>De Lunes a Lunes </p>
+                        <p>de 20hs a 00hs</p>
+                    </div>
+                </div>
+                <div class="reservasAlineadas estiloReservas ">
+                    <h3 class="online" >Reservas Online</h3>
+                    <div>
+                        <form action="" class=" formulario"> 
+                            <label for="nombre_form"></label>
+                            <input type="text" id="nombre_form" placeholder="Nombre completo" required>
+                            <label for="dni_form"></label>
+                            <input type="tel" id="dni_form" placeholder="DNI"required>
+                            <label for="tel_form"></label>
+                            <input type="tel" id="tel_form" placeholder="Telefono de contacto"required>
+                            <h3>Seleccione el Dia Reserva</h3>
+                            <div class="diasReserva">
+                                <label for="diaReserva_form">Miercoles</label>
+                                <input type="radio"name ="dia_form" required>
+                                <label for="diaReserva_form">Jueves</label>
+                                <input type="radio"name ="dia_form" required>
+                                <label for="diaReserva_form">Viernes</label>
+                                <input type="radio"name ="dia_form"required>
+                                <label for="diaReserva_form">Sabado</label>
+                                <input type="radio"name ="dia_form"required>
+                            </div>
+                            <div class="reservasOnline">
+                                <label for="cantidas_form">Cantidad de Personas</label>
+                                <input type="tel" placeholder="1" required>
+                                <input class="boton" type="submit" value="Enviar" href ="mailto:santamaria.a.valentina@gmial.com" >
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>   
                 
-            </div>
+        </div>
             
     </main>
     <footer>
         <div>
-            <h3 class="textoCentrado"> Casa Central</h3>
             <div class="imagenPiano">
                 <img src="../img/piano.png" alt="">
             </div>

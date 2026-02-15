@@ -36,6 +36,7 @@
   color: white;
   text-decoration: none;
   font-size: 20px;
+  padding: 2px;
 }
 
 .formulario {
@@ -208,14 +209,16 @@ main {
   color: white;
 }
 
-.flexGeneral {
-  display: flex;
-  text-align: center;
+.reservaSola {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.Reservas {
+.reservas {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin: 5px;
 }
@@ -230,10 +233,21 @@ main {
 .estiloReservas {
   margin-top: 20px;
   margin-right: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 20px;
   margin-left: 20px;
   padding: 20px;
   box-shadow: 1px 1px 20px;
+}
+
+.reservaTelefono {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.whatsappReservas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reservaLocal {
@@ -446,13 +460,20 @@ nav ul {
   .btn-outline-secondary {
     margin: 20px;
   }
-  .Reservas {
+  .reservas {
     grid-template-columns: 1fr;
-    margin-bottom: 20px;
   }
   .estiloReservas {
     margin-bottom: 2px;
     padding: 20px;
+  }
+  .reservaLocal iframe {
+    width: 100px;
+    height: 100px;
+  }
+  .mapaReservas {
+    display: flex;
+    justify-content: center;
   }
   .conocenos {
     display: grid;

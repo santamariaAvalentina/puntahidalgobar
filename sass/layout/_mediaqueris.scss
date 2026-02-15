@@ -18,6 +18,7 @@
     .contenedorCarta{
         display: grid;
         grid-template-columns: 1fr;
+        
     }
     .show{
         grid-template-columns: 1fr;
@@ -26,14 +27,20 @@
     .btn-outline-secondary{
         margin: 20px;
     }
-    
-    .Reservas{
+    .reservas{
         grid-template-columns:1fr;
-        margin-bottom: 20px;
     }  
     .estiloReservas{
         margin-bottom: 2px;
         padding:20px;
+    }
+    .reservaLocal iframe{
+        width: 100px;
+        height: 100px;
+    }
+    .mapaReservas{
+        display: flex;
+        justify-content: center;
     }
     .conocenos{
         display: grid;
