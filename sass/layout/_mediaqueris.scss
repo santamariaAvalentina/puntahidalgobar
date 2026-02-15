@@ -49,12 +49,14 @@
     .informacionFooter {
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        gap: 5px;
     }
     .informacionFooter li{
         font-size: 15px;
         text-align: center;
     }
     .redes img{
+        
         width: 25px;
         height: 25px;
     }

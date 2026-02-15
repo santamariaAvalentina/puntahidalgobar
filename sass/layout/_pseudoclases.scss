@@ -1,10 +1,12 @@
 @use "../utilities/variable" as *;
+.botonesNav{
+    transition: transform 0.5s ease-in-out, 
+    
+}
 .botonesNav:hover{
-    transform: scale(1.1);
+    transform: scale(0.6);
     list-style: none;
-    box-shadow: 0 0 5px grey;
-    border-radius: 2px;
-    padding: 7px;  
-    transition: transform 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
-
+    box-shadow: 0 0 5px #d8672b;
+    background-color: #d8672b;
+    border-radius: 5px;
 }

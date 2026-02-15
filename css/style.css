@@ -29,7 +29,7 @@
   align-items: center;
   text-align: center;
   background-color: #cc591b;
-  padding: 6px;
+  padding: 10px;
 }
 
 .navegadorEstilo a {
@@ -329,13 +329,16 @@ footer div ul li a {
   height: 40px;
 }
 
+.botonesNav {
+  transition: transform 0.5s ease-in-out;
+}
+
 .botonesNav:hover {
-  transform: scale(1.1);
+  transform: scale(0.6);
   list-style: none;
-  box-shadow: 0 0 5px grey;
-  border-radius: 2px;
-  padding: 7px;
-  transition: transform 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
+  box-shadow: 0 0 5px #d8672b;
+  background-color: #d8672b;
+  border-radius: 5px;
 }
 
 .pizza::before {
@@ -482,6 +485,7 @@ nav ul {
   .informacionFooter {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
   }
   .informacionFooter li {
     font-size: 15px;
