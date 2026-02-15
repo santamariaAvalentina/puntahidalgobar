@@ -53,6 +53,7 @@ main{
 /*------main carta-------*/
 .contenedorCarta{
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .cartaComidas{
     margin-top: 20px;
@@ -119,7 +120,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
-    justify-content: center;
+    text-align: center;
 }
 .showTexto{
     display: flex;

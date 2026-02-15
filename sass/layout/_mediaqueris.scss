@@ -11,13 +11,18 @@
     .navegadorSticky a{
         margin-right: 20px;
     }
+    .contenedorCarta{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .show{
         grid-template-columns: 1fr;
-        justify-items: center;
+        text-align: center;
     }
     .btn-outline-secondary{
         margin: 20px;
     }
+    
     .Reservas{
         grid-template-columns:1fr;
         margin-bottom: 20px;

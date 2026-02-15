@@ -180,6 +180,7 @@ main {
 /*------main carta-------*/
 .contenedorCarta {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .cartaComidas {
@@ -250,7 +251,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5px;
-  justify-content: center;
+  text-align: center;
 }
 
 .showTexto {
@@ -432,9 +433,13 @@ nav ul {
   .navegadorSticky a {
     margin-right: 20px;
   }
+  .contenedorCarta {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   .show {
     grid-template-columns: 1fr;
-    justify-items: center;
+    text-align: center;
   }
   .btn-outline-secondary {
     margin: 20px;
