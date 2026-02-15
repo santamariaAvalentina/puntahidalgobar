@@ -250,7 +250,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5px;
-  text-align: center;
+  justify-content: center;
 }
 
 .showTexto {
@@ -434,6 +434,7 @@ nav ul {
   }
   .show {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
   .btn-outline-secondary {
     margin: 20px;
