@@ -24,7 +24,7 @@
 
 .navegadorEstilo {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 6px;
   margin: 10px;
@@ -38,7 +38,6 @@
 .navegadorSticky a {
   color: white;
   text-decoration: none;
-  border-radius: 5px;
   padding: 6px;
   font-size: 20px;
 }
@@ -291,10 +290,11 @@ footer {
 
 .informacionFooter {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-left: 10px;
   margin-right: 10px;
+  gap: 2px;
 }
 
 footer div ul li {
@@ -312,6 +312,17 @@ footer div ul li a {
 .imagenPiano img {
   width: 100%;
   height: auto;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.redes img {
+  width: 40px;
+  height: 40px;
 }
 
 .botonesNav:hover {
@@ -451,6 +462,10 @@ nav ul {
   .informacionFooter {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+  .informacionFooter li {
+    font-size: 15px;
+    text-align: center;
   }
 }
 

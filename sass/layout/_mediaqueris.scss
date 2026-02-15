@@ -34,5 +34,9 @@
         display: grid;
         grid-template-columns: repeat(4,1fr);
     }
-    
+    .informacionFooter li{
+        font-size: 15px;
+        text-align: center;
+        
+    }
 }

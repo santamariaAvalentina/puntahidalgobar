@@ -7,7 +7,7 @@
 
 }
 .navegadorEstilo{
-    @include flex (center,center);
+    @include flex (space-around,center);
     gap: 6px;
     margin: 10px;
     padding: 10px;
@@ -19,7 +19,7 @@
 .navegadorSticky a{
     color:$texto-color;
     text-decoration: none;
-    border-radius: 5px;
     padding: 6px;
     font-size: 20px;
 }
+

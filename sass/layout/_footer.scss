@@ -12,9 +12,11 @@ footer{
     margin-bottom: 10px;
 }
 .informacionFooter{
-    @include flex (space-between, center);
+    @include flex (space-around, center);
     margin-left: 10px;
     margin-right: 10px;
+    gap: 2px;
+    
 }
 
 footer div ul li {
@@ -31,4 +33,14 @@ footer div ul li a {
 .imagenPiano img{
     width: 100%;
     height: auto;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.redes img{
+    width: 40px;
+    height: 40px;
 }
