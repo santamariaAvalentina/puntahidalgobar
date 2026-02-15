@@ -8,17 +8,16 @@
         margin-top: 20px;  
         margin-bottom: 10px; 
     }
-    .navegador{
-        justify-content: center;
-        flex-wrap: wrap;
-        
+    .navegadorSticky a{
+        margin-right: 20px;
     }
-    .show_flex {
-        @include flex (null, center);
-        flex-direction:column;
-    
+    .show{
+        grid-template-columns: 1fr;
     }
-    .gridReservas{
+    .btn-outline-secondary{
+        margin: 20px;
+    }
+    .Reservas{
         grid-template-columns:1fr;
         margin-bottom: 20px;
     }  
@@ -26,9 +25,9 @@
         margin-bottom: 2px;
         padding:20px;
     }
-    .guitarrasTexto{
+    .conocenos{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3 1fr);
     }  
     .informacionFooter {
         display: grid;
