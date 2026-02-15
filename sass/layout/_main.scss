@@ -10,22 +10,22 @@ main{
     padding-top: 20px;
     margin-bottom: 20px;
 }
-.imagenesGuitarras{
+.GuitarrasFotos{
     @include flex (space-between, center);
 }
-.imagenesGuitarras img{
+.GuitarrasFotos img{
     width: 100%;
     height: auto;
 }
 .imagenSabores{
-    @include flex (center, center);    
+    @include flex (space-between, center);
     gap: 20px;
-    flex-wrap: wrap;
 }
 .imagenSabores img{
-    width: 120px;
-    height: 120px;
-    box-shadow: $sombra-imagenes;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 8px grey;
+    border-radius: 10px;
 }
 /*--------main conocenos-----*/
 .conocenosTitulo{
@@ -64,6 +64,7 @@ main{
     box-shadow: $sombra-imagenes ;
     
     
+    
 }
 .imagenComidaTexto{
     @include flex (center, null);
@@ -71,6 +72,16 @@ main{
     margin-top: 20px;
     max-width: 100%;
     flex-wrap: wrap;
+    
+}
+.imagenComidaTexto img{
+    border-radius: 8px;
+}
+.tragos{
+    @include flex (space-around,center)
+}
+.tragos img{
+    width: 200px;
 }
 /*------main reservas------*/
 .boton{
@@ -135,12 +146,9 @@ main{
     flex-direction: column ;
 }
 
-.btn-outline-secondary{
-    box-shadow: 0 0 20px;
-    color: white;
-    margin: 100px;
-    
-}
-.show_flex img{
+
+.show img{
     box-shadow: $sombra-imagenes ;
+    width: 200px;
+    height: auto;
 }

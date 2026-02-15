@@ -23,6 +23,15 @@
     .botonesNav:hover{
         transform: none;
     }
+    .imagenSabores{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .imagenSabores img{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
     .contenedorCarta{
         display: grid;
         grid-template-columns: 1fr;
@@ -53,9 +62,11 @@
         justify-content: center;
     }
     .conocenos{
-        display: grid;
-        grid-template-columns: repeat(3 1fr);
-    }  
+        @include flex (center,center);
+    }
+    .conocenos img{
+        width: 100%;
+    }
     .informacionFooter {
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -64,6 +75,11 @@
     .informacionFooter li{
         font-size: 15px;
         text-align: center;
+    }
+    .redes{
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 30px;
     }
     .redes img{
         width: 25px;
