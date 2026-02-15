@@ -35,7 +35,7 @@
 .navegadorEstilo a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
   padding: 2px;
 }
 
@@ -452,6 +452,15 @@ nav ul {
     gap: 6px;
     margin-left: 2px;
   }
+  .navegadorEstilo a {
+    font-size: 20px;
+  }
+  .botonesNav {
+    transition: none;
+  }
+  .botonesNav:hover {
+    transform: none;
+  }
   .contenedorCarta {
     display: grid;
     grid-template-columns: 1fr;
@@ -462,6 +471,8 @@ nav ul {
   }
   .btn-outline-secondary {
     margin: 20px;
+    transition: none;
+    transform: none;
   }
   .reservas {
     grid-template-columns: 1fr;

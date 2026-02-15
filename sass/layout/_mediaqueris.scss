@@ -14,7 +14,15 @@
         gap:6px;
         margin-left: 2px;
     }
-    
+    .navegadorEstilo a{
+        font-size: 20px;
+    }
+    .botonesNav{
+        transition: none;
+    }
+    .botonesNav:hover{
+        transform: none;
+    }
     .contenedorCarta{
         display: grid;
         grid-template-columns: 1fr;
@@ -26,6 +34,8 @@
     }
     .btn-outline-secondary{
         margin: 20px;
+        transition: none;
+        transform: none;
     }
     .reservas{
         grid-template-columns:1fr;
@@ -56,7 +66,6 @@
         text-align: center;
     }
     .redes img{
-        
         width: 25px;
         height: 25px;
     }
