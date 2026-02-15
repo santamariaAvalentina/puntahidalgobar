@@ -8,9 +8,13 @@
         margin-top: 20px;  
         margin-bottom: 10px; 
     }
-    .navegadorSticky a{
-        margin-right: 20px;
+    .navegadorEstilo{
+        @include flex (center,center);
+        text-align: center;
+        gap:6px;
+        margin-left: 2px;
     }
+    
     .contenedorCarta{
         display: grid;
         grid-template-columns: 1fr;
