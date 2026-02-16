@@ -14,6 +14,7 @@
   bottom: 20%;
   right: 30px;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .btn-outline-secondary {
@@ -337,6 +338,12 @@ footer div ul li a {
   height: auto;
 }
 
+.ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .redes {
   display: flex;
   justify-content: center;
@@ -345,8 +352,8 @@ footer div ul li a {
 }
 
 .redes img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 
 .botonesNav {
@@ -534,6 +541,9 @@ nav ul {
   .informacionFooter li {
     font-size: 15px;
     text-align: center;
+  }
+  .ubicacion li {
+    font-size: 8px;
   }
   .redes {
     flex-direction: column;
